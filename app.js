@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const uuidv1 = require('uuid/v1');
 
-const tvShows = require('./tv-shows.json');
+let tvShows = require('./tv-shows.json').slice();
 
 app.use(express.static('public'));
 app.use(bodyParser.json());
@@ -19,6 +19,11 @@ const getTvShowById = (req, res, next) => {
 };
 
 app.get('/', (req, res) => res.send('Hello, World!'));
+
+app.post('/db/seed', (req, res) => {
+  tvShows = require('./tv-shows.json').slice();
+  res.sendStatus(204);
+});
 
 app.get('/tv-shows', (req, res) => {
   let genres = req.query.genres;
