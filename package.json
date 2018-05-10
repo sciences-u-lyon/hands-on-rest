@@ -1,0 +1,30 @@
+{
+  "name": "hands-on-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciences-u-lyon/hands-on-rest.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Payot <nicolas.payot@gmail.com> (http://nicolaspayot.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sciences-u-lyon/hands-on-rest/issues"
+  },
+  "homepage": "https://github.com/sciences-u-lyon/hands-on-rest#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "uuid": "^3.2.1"
+  }
+}
