@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "Black Mirror",
+    "poster": "/img/black-mirror.jpg",
+    "release": "2011-12-04T00:00:00Z",
+    "genres": [
+      "drama",
+      "sci-fi",
+      "thriller"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Breaking Bad",
+    "poster": "/img/breaking-bad.jpg",
+    "release": "2008-01-20T00:00:00Z",
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Game Of Thrones",
+    "poster": "/img/got.jpg",
+    "release": "2011-04-17T00:00:00Z",
+    "genres": [
+      "action",
+      "adventure",
+      "drama"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Jessica Jones",
+    "poster": "/img/jessica-jones.jpg",
+    "release": "2015-11-20T00:00:00Z",
+    "genres": [
+      "action",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "La Casa De Papel",
+    "poster": "/img/la-casa-de-papel.jpg",
+    "release": "2017-05-02T00:00:00Z",
+    "genres": [
+      "action",
+      "crime",
+      "mystery"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Stranger Things",
+    "poster": "/img/stranger-things.jpg",
+    "release": "2016-06-15T00:00:00Z",
+    "genres": [
+      "drama",
+      "fantasy",
+      "horror"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "The Walking Dead",
+    "poster": "/img/the-walking-dead.jpg",
+    "release": "2010-10-31T00:00:00Z",
+    "genres": [
+      "drama",
+      "horror",
+      "thriller"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Westworld",
+    "poster": "/img/westworld.jpg",
+    "release": "2016-10-02T00:00:00Z",
+    "genres": [
+      "drama",
+      "mystery",
+      "sci-fi"
+    ]
+  }
+]
